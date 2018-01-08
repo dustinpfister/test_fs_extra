@@ -1,4 +1,4 @@
-let fs = require('fs');
+let fs = require('fs-extra');
 
 // I can still use async fs methods like normal
 fs.readFile('README.md', 'utf-8', function (e, data) {
