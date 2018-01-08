@@ -2,7 +2,7 @@ let fs = require('fs-extra');
 
 fs.emptyDir('target').then(function () {
 
-    console.log('target should noe be empty');
+    console.log('target should be there, and empty');
 
     // lets check
     return fs.readdir('target');
